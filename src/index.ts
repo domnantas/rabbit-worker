@@ -46,7 +46,7 @@ async function handleRequest(request: Request, env: Env): Promise<Response> {
   console.log('hole', hole)
 
   if (hole !== guessedHole) {
-    return new Response('Rabbit is not here', { status: 404 })
+    return new Response('404 Rabbit Not Found', { status: 404 })
   }
 
   console.log('Rabbit got caught!')
