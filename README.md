@@ -10,6 +10,6 @@ This project has been inspired by [Ben Awad interview with Dan Abramov](https://
 
 This is an API which changes the route parameter on every request. Can you find the rabbit? Here are the API details:
 
-> There are 100 routes - from /0 to /99. Only one of them will respond with a rabbit. Every time you make a request, the rabbit jumps to adjecent route. For example, if the rabbit is currently on route /20, you make a requestt to /68, the rabbit will jump to either /19 or /21. Can you catch the rabbit?
+> There are 100 routes - from /0 to /99. Only one of them will respond with a rabbit. Every time you make a request, the rabbit jumps to adjecent route. For example, if the rabbit is currently on route /20, you make a request to /68, the rabbit will jump to either /19 or /21. Can you catch the rabbit?
 
 The worker is published on https://rabbit.domnantas.workers.dev/
